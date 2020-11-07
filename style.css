@@ -67,3 +67,23 @@ img {
 .manual-button:hover {
   background-color: #b209ee;
 }
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first {
+  margin-left: -60%;
+}
+
+#radio5:checked ~ .first {
+  margin-left: -80%;
+}
