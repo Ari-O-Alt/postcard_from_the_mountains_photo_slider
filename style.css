@@ -45,7 +45,25 @@ img {
 
 /* CSS for manual navigation */
 .manual-navigation {
+  position: absolute;
+  width: 1000px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
 }
 
 .manual-button {
+  border: 2px solid #b209ee;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-button:not(:last-child) {
+  margin-right: 40px;
+}
+
+.manual-button:hover {
+  background-color: #b209ee;
 }
